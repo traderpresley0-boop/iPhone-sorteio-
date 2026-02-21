@@ -62,3 +62,25 @@
 <script src="script.js"></script>
 </body>
 </html>
+<script>
+document.getElementById("cadastroForm").addEventListener("submit", function(e){
+e.preventDefault();
+
+// esconder cadastro
+document.getElementById("cadastroForm").style.display="none";
+
+// mostrar pagamento
+document.getElementById("pagamento").style.display="block";
+});
+
+function confirmarPagamento(){
+let codigo = document.getElementById("comprovante").value;
+
+if(codigo === ""){
+alert("Digite o código do pagamento");
+return;
+}
+
+alert("Participação confirmada!");
+}
+</script>
