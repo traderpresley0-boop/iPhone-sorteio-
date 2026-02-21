@@ -33,3 +33,4 @@ li.textContent = p;
 lista.appendChild(li);
 });
 }
+<script src="painel-8473.js"></script>
