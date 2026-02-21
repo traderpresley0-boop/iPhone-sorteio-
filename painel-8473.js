@@ -1,5 +1,5 @@
 // senha simples (depois podemos melhorar)
-const senhaCorreta = "12345";
+const senhaCorreta = "MeuSite@2026#Seguro!";
 
 function login(){
 let senha = document.getElementById("senha").value;
