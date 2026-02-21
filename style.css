@@ -1,0 +1,55 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color: white;
+text-align: center;
+}
+
+header {
+padding: 30px;
+background: black;
+box-shadow: 0 0 20px cyan;
+}
+
+.hero img {
+width: 90%;
+max-width: 400px;
+border-radius: 20px;
+margin-top: 20px;
+}
+
+.card {
+background: rgba(255,255,255,0.1);
+padding: 20px;
+margin: 20px;
+border-radius: 15px;
+}
+
+.form-area input {
+display: block;
+width: 80%;
+margin: 10px auto;
+padding: 12px;
+border-radius: 10px;
+border: none;
+}
+
+button {
+background: cyan;
+border: none;
+padding: 15px 25px;
+border-radius: 10px;
+cursor: pointer;
+font-weight: bold;
+}
+
+button:hover {
+background: #00ffd5;
+}
+
+footer {
+margin-top: 40px;
+padding: 20px;
+background: black;
+}
