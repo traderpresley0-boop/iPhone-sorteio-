@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Área do Administrador</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🔒 Área do Administrador</h1>
+
+<div id="login">
+<h2>Login do dono</h2>
+
+<input type="password" id="senha" placeholder="Digite a senha">
+<button onclick="login()">Entrar</button>
+
+<p id="erro"></p>
+</div>
+
+<div id="painel" style="display:none">
+<h2>Participantes do sorteio</h2>
+
+<ul id="lista"></ul>
+
+<button onclick="logout()">Sair</button>
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
